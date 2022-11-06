@@ -1,0 +1,7 @@
+*.so
+*.o
+tests-out/
+tests/bin/
+
+# generated
+tests/1.out
