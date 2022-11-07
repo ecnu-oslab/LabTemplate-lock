@@ -8,6 +8,6 @@ void list_destroy(struct list_t *list);
 
 void list_insert(struct list_t *list, int key);
 void list_delete(struct list_t *list, int key);
-int list_lookup(struct list_t *list, int key);
+void *list_lookup(struct list_t *list, int key);
 
 #endif
